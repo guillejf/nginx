@@ -1,7 +1,6 @@
 const express = require("express");
 const app = express();
 app.enable("trust proxy");
-//test
 //app.use(express.static('public'))
 const PORT = parseInt(process.argv[2]) || 8080;
 app.get("/datos", (req, res) => {
