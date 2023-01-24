@@ -5,4 +5,8 @@ pm2 start server.js --name="Server2" --watch -i max -- -- 8082
 pm2 start server.js --name="Server1" --watch -- -- 8081
 
 Dentro de la carpeta base de todo el proyecto donde esta nginx.exe ejecutar este comando:
-nginx
+nginx usando cmd
+./nginx.exe usando powershell
+
+Si hay un error con la carpeta temp o logs aca esta la solucion
+https://stackoverflow.com/questions/35563834/nginx-fails-to-create-directories-on-windows-10-with-error-nginx-createfile
