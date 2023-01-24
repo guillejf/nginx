@@ -117,3 +117,4 @@
 2023/01/24 17:11:32 [error] 6040#2016: *47 CreateFile() "D:\nginx/../public/gato.jpg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: mginx_node, request: "GET /gato.jpg HTTP/1.1", host: "localhost"
 2023/01/24 17:11:34 [error] 6040#2016: *48 CreateFile() "D:\nginx/../public/gato.jpg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: mginx_node, request: "GET /gato.jpg HTTP/1.1", host: "localhost"
 2023/01/24 19:53:26 [error] 12200#3884: *52 CreateFile() "./public/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: mginx_node, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/01/24 20:39:46 [emerg] 11584#3528: CreateDirectory() "D:\tn/temp/client_body_temp" failed (3: The system cannot find the path specified)
